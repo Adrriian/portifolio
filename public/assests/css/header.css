@@ -1,0 +1,55 @@
+:root{
+    --background: #fff;
+    --foreground: #6e07f3;
+    --primary: #141c3a;
+    --primary-light: #cdd3eb;
+    --primary-foreground: #fff;
+    --secondary: #5be8b9;
+    --secundary-foreground:#141c3a;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_logo{
+    width: 30px;
+}
+.nav_bar{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.bar{
+    width: 30px;
+    height: 5px;
+    background-color: var(--primary);
+
+}
+.menu_open{
+    display: flex;
+    align-self: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: var(--foreground);
+}
+.button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--foreground);
+}
+.button:hover{
+    cursor: pointer;
+
+
+}

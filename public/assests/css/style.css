@@ -193,10 +193,8 @@ header nav a{
     gap: 1rem;
 }
 
-@media (max-width <= 1201x){
-  
-}
-@media (width <= 600px){
+
+@media (max-width:600px){
     .menu_area{
         display: flex;
         flex-direction: column;
@@ -266,4 +264,23 @@ header nav a{
         .radios2{
             border-radius: 0 0 2rem 2rem;
         }
+}
+@media (max-width: 462px){
+   
+    .dev_dados_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .dev_dados_text h2 {
+        font-size: 1rem;
+    }
+}
+@media  (max-width:349px){
+    .dev_dados_text h1 {
+        font-size: 1.2rem;
+    }
+
+    .dev_dados_text h2 {
+        font-size: 1rem;
+    }
 }

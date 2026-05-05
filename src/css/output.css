@@ -551,6 +551,11 @@
       }
     }
   }
+  .sm\:h-full {
+    @media (width >= 40rem) {
+      height: 100%;
+    }
+  }
   .sm\:max-h-1\/5 {
     @media (width >= 40rem) {
       max-height: calc(1 / 5 * 100%);

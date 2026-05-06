@@ -63,3 +63,19 @@ menuDepoimentos.addEventListener('click', () => {
     }
    
 })
+
+let ebd = document.querySelector('#ebd')
+let culinaria = document.querySelector("#culinaria")
+let financas = document.querySelector('#financas')
+
+ebd.addEventListener('mouseenter', (e) => {
+
+    if(e.target.id == "ebd"){
+         culinaria.classList.add("opacity-20")
+    financas.classList.add("opacity-20")
+    }else{
+         culinaria.classList.remove("opacity-20")
+        financas.classList.remove("opacity-20")
+    }
+   
+})

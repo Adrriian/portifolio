@@ -31,8 +31,8 @@
                     Adrian.dev</a>
                 <a id="menuSobre" href="#sobre" class="cursor-pointer font-bold text-white hover:text-cyan-400">Sobre</a>
                 <a id="menuSkils" href="#skils" class="cursor-pointer font-bold text-white hover:text-cyan-400">Skils</a>
-                <a id="menuProjetos"class="cursor-pointer font-bold text-white hover:text-cyan-400">Projetos</a>
-                <a id="menuDepoimentos"class="cursor-pointer font-bold text-white hover:text-cyan-400">Depoimentos</a>
+                <a id="menuProjetos" href="#projetos" class="cursor-pointer font-bold text-white hover:text-cyan-400">Projetos</a>
+                <a id="menuDepoimentos" href="#depoimentos" class="cursor-pointer font-bold text-white hover:text-cyan-400">Depoimentos</a>
                 <a id="menuContato"href="#contato" class="cursor-pointer font-bold text-white hover:text-cyan-400">Contato</a>
             </div>
         </nav>
@@ -45,9 +45,7 @@
                     Adrian Raul Ribeiro</h1>
                 <h2 class="text-gray-500 max-w-md text-center text-md">Desenvolvedor web focado em criar interfaces
                     modernas e experiências digitais profissionais.</h2>
-                <button
-                    class="border border-cyan-600 shadow-[0_0_20px_#22d3ee] py-3 px-10 cursor-pointer rounded-xl bg-gradient-to-r from-cyan-400 to-violet-500 text-white text-xl font-bold">Ver
-                    Projetos</button>
+                <a href="#projetos" class="border border-cyan-600 shadow-[0_0_20px_#22d3ee] py-3 px-10 cursor-pointer rounded-xl bg-gradient-to-r from-cyan-400 to-violet-500 text-white text-xl font-bold hover:py-5 hover:px-13  hover:from-cyan-600 hover:to-violet-700 transition-all duration-300 ease-linear">VerProjetos</a>
             </div>
         </section>
         <section id="sobre" class="text-2xl text-white py-20 mx-auto  ">
@@ -66,8 +64,8 @@
         </section>
         <section id="skils" class="text-white py-20 mt-20 " >
                 <div class="flex flex-col items-center w-full gap-5 ">
-                    <h1 class="font-bold text-cyan-400 text-2xl ">Skils</h1>
-                    <div class="flex flex-col gap-5 sm:flex-row ">
+                    <h1 class="font-bold text-cyan-400 text-2xl uppercase">Skils</h1>
+                    <div class="flex flex-col gap-5 sm:grid sm:grid-cols-2 lg:grid-cols-3">
                         <div class="flex flex-col gap-8 bg-cyan-400/10 border border-white rounded-xl p-5 sm:w-70">
                             <div class="flex flex-col gap-5 ">
                                 <h1 class="font-bold w-full text-center text-lg  text-cyan-400">Tecnologias que uso <br> (Front-End)</h1>
@@ -143,7 +141,53 @@
                     </div>
                 </div>
         </section>
-       
+        <section id="projetos">
+                <div class="w-ful flex items-center justify-center flex-col gap-5 ">
+                    <h1 class="text-cyan-400 text-2xl font-bold uppercase">Projetos</h1>
+                    <div  class="flex flex-col gap-6 sm:grid sm:grid-cols-2 sm:gap-10 lg:grid-cols-3">
+                        <div id="ebd" class="group flex flex-col gap-2 items-center cursor-pointer hover:translate-y-2 bg-gray-600 hover:shadow-[10px_10px_30px_black] rounded-xl transition-all duration-300 ease-linear">
+                            <div class="w-70 h-70   transition-all duration-300 ease-linear" >
+                                <img class="w-ful h-full rounded-tr-xl rounded-tl-xl " src="./public//icons/ebd.png">
+                            </div>
+                            <h1 class="text-cyan-400 text-xl font-bold group-hover:text-2xl transition-all duration-300 ease-linear">EBD CLOUD</h1>
+                            <p class="max-w-60 text-justify px-2 pb-2 text-white ">Um SaaS para gestão de aulas e membros da Escola Bíblica Dominical, facilitando o registro da diretoria e a comunicação sobre próximas aulas e funções.</p>
+                             <div class="grid grid-cols-2 gap-3 mb-2">
+                                <h1 class="text-white border border-white text-center p-2 rounded ">Saas</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Web Aplicativo</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Site Responsivo</h1>
+                            </div>
+                        </div>
+                       <div id="culinaria" class="group flex flex-col gap-2 items-center cursor-pointer hover:translate-y-2 bg-gray-600  rounded-xl transition-all duration-300 ease-linear">
+                            <div class="w-70 h-70   transition-all duration-300 ease-linear" >
+                                <img class="w-ful h-full rounded-tr-xl rounded-tl-xl " src="./public//icons/ebd.png">
+                            </div>
+                            <h1 class="text-white text-xl font-medium group-hover:text-2xl transition-all duration-300 ease-linear">Ebd Cloud</h1>
+                            <p class="max-w-60 text-justify px-2 pb-2 text-white ">Um SaaS para gestão de aulas e membros da Escola Bíblica Dominical, facilitando o registro da diretoria e a comunicação sobre próximas aulas e funções.</p>
+                             <div class="grid grid-cols-2 gap-3 mb-2">
+                                <h1 class="text-white border border-white text-center p-2 rounded">Saas</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Web Aplicativo</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Site Responsivo</h1>
+                            </div>
+                        </div>
+                        <div id="financas" class="group flex flex-col gap-2 items-center cursor-pointer hover:translate-y-2 bg-gray-600  rounded-xl transition-all duration-300 ease-linear">
+                            <div class="w-70 h-70   transition-all duration-300 ease-linear" >
+                                <img class="w-ful h-full rounded-tr-xl rounded-tl-xl " src="./public//icons/ebd.png">
+                            </div>
+                            <h1 class="text-white text-xl font-medium group-hover:text-2xl transition-all duration-300 ease-linear">Ebd Cloud</h1>
+                            <p class="max-w-60 text-justify px-2 pb-2 text-white ">Um SaaS para gestão de aulas e membros da Escola Bíblica Dominical, facilitando o registro da diretoria e a comunicação sobre próximas aulas e funções.</p>
+                             <div class="grid grid-cols-2 gap-3 mb-2">
+                                <h1 class="text-white border border-white text-center p-2 rounded ">Saas</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Web Aplicativo</h1>
+                                <h1 class="text-white border border-white text-center p-2 rounded">Site Responsivo</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="depoimentos" class="mt-50">
+            <h1 class="text-cyan-400 font-black text-2xl w-full text-center">Depoimentos</h1>
+            <h1 class="text-white font-black text-2xl w-full text-center"> em desenvolvimento</h1>
+        </section>
 
     </main>
     <footer id="contato" class="mt-50">
@@ -157,6 +201,7 @@
                     <a href="https://wa.me/5547991076484?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portf%C3%B3lio" class="text-white cursor-pointer hover:text-cyan-400">WhatsApp</a>
                 </div>
                 <div class="w-full  bg-[#050816] text-center py-10">
+                    
                     <h1 class="text-gray-700">© Adrian Dev Front-End</h1>
                 </div>
             </div>

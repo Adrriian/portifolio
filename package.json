@@ -2,5 +2,8 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.2.4",
     "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^4.0.2"
   }
 }
